@@ -2,6 +2,14 @@ const router = require('express').Router();
 const { Location, Trips } = require('../../models');
 
 // GET route /api/locations returns all location data
+router.get('/', async (req, res) => {
+try {
+
+    res.status(200).json()
+} catch (err) {
+    
+}
+})
 
 // POST route /api/locations creates location data 
 
